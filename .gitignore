@@ -1,29 +1,32 @@
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
 
-# PyInstaller output
-build/
-dist/
-
-# Local databases
+# Databases
 *.db
 *.db-journal
 *.db-wal
 *.db-shm
 
-# Local settings
-settings.json
+# PyInstaller
+build/
+dist/
+
+# Inno Setup output
+installer/
+Installer/
+
+# Executables
+*.exe
 
 # Virtual environments
-venv/
 .venv/
+venv/
 env/
 
 # IDE
 .vscode/
-.idea/
 
-# Operating system
+# OS
 .DS_Store
 Thumbs.db
